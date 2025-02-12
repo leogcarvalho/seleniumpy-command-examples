@@ -24,7 +24,7 @@ btn_login.click()
 # text
 products_title = browser.find_element(By.XPATH, "//span[@class='title']")
 print(products_title.text)
-assert products_title.text == "PRODUCTS"
+assert products_title.text == "Products"
 
 # get_attribute()
 img_backpack = browser.find_element(By.XPATH, "(//img[@class='inventory_item_img'])[1]")
